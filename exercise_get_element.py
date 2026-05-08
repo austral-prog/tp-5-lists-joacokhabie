@@ -15,14 +15,12 @@ def get_element(lista, indice):
     if len(lista)==0:
         return None
 
-
+    # Convertimos índice negativo a positivo equivalente
     if indice < 0:
         indice = len(lista) + indice
 
-
+    # Verificamos rango válido
     if indice < 0 or indice >= len(lista):
         return None
 
     return lista[indice]
-
-

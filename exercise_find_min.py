@@ -14,4 +14,9 @@ def find_min(lista):
     if len(lista) == 0:
         return None
     else:
-        return min(lista)
+        minimo=min(lista)
+        """minimo = lista[0]
+        for numero in lista:
+            if numero < minimo:
+                minimo = numero"""
+        return minimo
